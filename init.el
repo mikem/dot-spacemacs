@@ -221,6 +221,7 @@ layers configuration. You are free to put any user code."
     (setq js2-basic-offset 2)
     (setq js-indent-level 2)
     (setq indent-tabs-mode nil))
+  (set-face-background 'vertical-border (face-foreground 'vertical-border))
 )
 
 ;; Web mode customizations
